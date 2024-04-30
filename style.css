@@ -7,3 +7,64 @@ p{
 .header_div:hover{
   box-shadow: 10px 10px 10px black;  
 }
+@media (hover:hover){
+  .division:hover{
+    box-shadow: 10px 10px 10px hsl(218, 10.6%, 64.9%);
+  }
+  .header_div{
+    
+  }
+}
+.header_div:hover{
+ box-shadow: 10px 10px 10px hsl(218, 10.6%, 64.9%) ;
+ border: 200px;
+}
+
+.division{
+  margin-top: 10px;
+  background-color:rgba(58,168,214,0.447);
+  padding: 5px;
+}
+nav ul{
+  list-style: none;
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+}
+ul li{
+  margin-right: 15px;
+}
+li a{
+  cursor: progress;
+  margin: 0px;
+}@media (hover:hover){
+  .division:hover{
+    box-shadow: 10px 10px 10px hsl(218, 10.6%, 64.9%);
+  }
+  .header_div{
+    
+  }
+}
+.header_div:hover{
+ box-shadow: 10px 10px 10px hsl(218, 10.6%, 64.9%) ;
+ border: 200px;
+}
+
+.division{
+  margin-top: 10px;
+  background-color:rgba(58,168,214,0.447);
+  padding: 5px;
+}
+nav ul{
+  list-style: none;
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+}
+ul li{
+  margin-right: 15px;
+}
+li a{
+  cursor: progress;
+  margin: 0px;
+}
